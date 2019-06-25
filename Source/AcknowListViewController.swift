@@ -314,7 +314,6 @@ open class AcknowListViewController: UITableViewController {
             label.text = self.headerText
             label.font = font
             label.textColor = UIColor.gray
-            label.backgroundColor = UIColor.clear
             label.numberOfLines = 0
             label.textAlignment = .center
             label.autoresizingMask = [.flexibleLeftMargin, .flexibleRightMargin]
@@ -344,7 +343,6 @@ open class AcknowListViewController: UITableViewController {
             label.text = self.footerText
             label.font = font
             label.textColor = UIColor.gray
-            label.backgroundColor = UIColor.clear
             label.numberOfLines = 0
             label.textAlignment = .center
             label.autoresizingMask = [.flexibleLeftMargin, .flexibleRightMargin]

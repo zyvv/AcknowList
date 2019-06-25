@@ -74,8 +74,6 @@ open class AcknowViewController: UIViewController {
         #if os(iOS)
             textView.isEditable = false
             textView.dataDetectorTypes = .link
-            
-            view.backgroundColor = UIColor.white
         #endif
         textView.textContainerInset = UIEdgeInsets.init(top: TopBottomDefaultMargin, left: LeftRightDefaultMargin, bottom: TopBottomDefaultMargin, right: LeftRightDefaultMargin)
         view.addSubview(textView)
