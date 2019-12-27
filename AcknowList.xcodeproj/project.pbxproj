@@ -12,7 +12,6 @@
 		1A74216E1CAC3616007E44FD /* Acknow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74216A1CAC3616007E44FD /* Acknow.swift */; };
 		1A74216F1CAC3616007E44FD /* AcknowListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74216B1CAC3616007E44FD /* AcknowListViewController.swift */; };
 		1A7421701CAC3616007E44FD /* AcknowParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74216C1CAC3616007E44FD /* AcknowParser.swift */; };
-		1A7421711CAC3616007E44FD /* AcknowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74216D1CAC3616007E44FD /* AcknowViewController.swift */; };
 		1A7421751CAC3685007E44FD /* AcknowListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7421721CAC3685007E44FD /* AcknowListViewControllerTests.swift */; };
 		1A7421761CAC3685007E44FD /* AcknowParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7421731CAC3685007E44FD /* AcknowParserTests.swift */; };
 		1A7421771CAC3685007E44FD /* AcknowViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7421741CAC3685007E44FD /* AcknowViewControllerTests.swift */; };
@@ -20,6 +19,7 @@
 		1AD73B921CAC3B1C0084F8CA /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD73B901CAC3B140084F8CA /* Pods-acknowledgements.plist */; };
 		1AD73BBE1CAC54C60084F8CA /* AcknowList.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1AD73BBD1CAC54C60084F8CA /* AcknowList.bundle */; };
 		503E61E9212997CE00322F6C /* Pods-acknowledgements-RegexTesting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 503E61E8212997CD00322F6C /* Pods-acknowledgements-RegexTesting.plist */; };
+		9714922823B6218900E2DD4C /* AcknowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9714922723B6218900E2DD4C /* AcknowCell.swift */; };
 		D70B427D212B2916007B6A81 /* RegexTesting-GroundTruth-Alamofire.txt in Resources */ = {isa = PBXBuildFile; fileRef = D70B427C212B2916007B6A81 /* RegexTesting-GroundTruth-Alamofire.txt */; };
 		D70B427F212B2941007B6A81 /* RegexTesting-GroundTruth-Charts.txt in Resources */ = {isa = PBXBuildFile; fileRef = D70B427E212B2941007B6A81 /* RegexTesting-GroundTruth-Charts.txt */; };
 		D70B4281212B295B007B6A81 /* RegexTesting-GroundTruth-TPKeyboardAvoiding.txt in Resources */ = {isa = PBXBuildFile; fileRef = D70B4280212B295B007B6A81 /* RegexTesting-GroundTruth-TPKeyboardAvoiding.txt */; };
@@ -44,7 +44,6 @@
 		1A74216A1CAC3616007E44FD /* Acknow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acknow.swift; sourceTree = "<group>"; };
 		1A74216B1CAC3616007E44FD /* AcknowListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowListViewController.swift; sourceTree = "<group>"; };
 		1A74216C1CAC3616007E44FD /* AcknowParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowParser.swift; sourceTree = "<group>"; };
-		1A74216D1CAC3616007E44FD /* AcknowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowViewController.swift; sourceTree = "<group>"; };
 		1A7421721CAC3685007E44FD /* AcknowListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowListViewControllerTests.swift; sourceTree = "<group>"; };
 		1A7421731CAC3685007E44FD /* AcknowParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowParserTests.swift; sourceTree = "<group>"; };
 		1A7421741CAC3685007E44FD /* AcknowViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowViewControllerTests.swift; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		1AD73B901CAC3B140084F8CA /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Pods-acknowledgements.plist"; path = "Tests/Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
 		1AD73BBD1CAC54C60084F8CA /* AcknowList.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AcknowList.bundle; path = Resources/AcknowList.bundle; sourceTree = SOURCE_ROOT; };
 		503E61E8212997CD00322F6C /* Pods-acknowledgements-RegexTesting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements-RegexTesting.plist"; sourceTree = "<group>"; };
+		9714922723B6218900E2DD4C /* AcknowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowCell.swift; sourceTree = "<group>"; };
 		D70B427C212B2916007B6A81 /* RegexTesting-GroundTruth-Alamofire.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RegexTesting-GroundTruth-Alamofire.txt"; sourceTree = "<group>"; };
 		D70B427E212B2941007B6A81 /* RegexTesting-GroundTruth-Charts.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RegexTesting-GroundTruth-Charts.txt"; sourceTree = "<group>"; };
 		D70B4280212B295B007B6A81 /* RegexTesting-GroundTruth-TPKeyboardAvoiding.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RegexTesting-GroundTruth-TPKeyboardAvoiding.txt"; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 				1A74216B1CAC3616007E44FD /* AcknowListViewController.swift */,
 				144210341CB657F200E958F1 /* AcknowLocalization.swift */,
 				1A74216C1CAC3616007E44FD /* AcknowParser.swift */,
-				1A74216D1CAC3616007E44FD /* AcknowViewController.swift */,
+				9714922723B6218900E2DD4C /* AcknowCell.swift */,
 				1AD73BBC1CAC53BD0084F8CA /* Resources */,
 				1AD73B941CAC3CE60084F8CA /* Supporting Files */,
 			);
@@ -287,11 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9714922823B6218900E2DD4C /* AcknowCell.swift in Sources */,
 				1A74216E1CAC3616007E44FD /* Acknow.swift in Sources */,
 				144210351CB657F200E958F1 /* AcknowLocalization.swift in Sources */,
 				1A74216F1CAC3616007E44FD /* AcknowListViewController.swift in Sources */,
 				1A7421701CAC3616007E44FD /* AcknowParser.swift in Sources */,
-				1A7421711CAC3616007E44FD /* AcknowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
